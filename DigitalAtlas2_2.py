@@ -48,7 +48,9 @@ if search_input:
     st.markdown(f"**Full Industry Code**: {result.get('Full_Industry_Code', '')}")
     st.markdown(f"**Appetite Summary**: `{summarize_appetite(result)}`")
     st.markdown("---")
-    st.markdown(f"- PL: {result['PL']}  
-- GL: {result['GL']}  
-- BOP: {result['BOP']}  
-- Cyber: {result['Cyber']}")
+    st.markdown(f"""
+- PL: {result['PL']}
+- GL: {result['GL']}
+- BOP: {result['BOP']}
+- Cyber: {result['Cyber']}
+    """)

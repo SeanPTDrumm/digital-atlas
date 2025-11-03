@@ -84,7 +84,7 @@ def search_top_match(input_text, naics_mode=False):
     }
 
 # UI
-st.title("📊 Hiscox Digital Atlas 2.0")
+st.title("Hiscox Digital Atlas 2.0")
 
 tab1, tab2 = st.tabs(["🔍 Search", "📁 Batch Upload"])
 
